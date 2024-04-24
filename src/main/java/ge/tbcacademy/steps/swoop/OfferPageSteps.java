@@ -15,6 +15,7 @@ public class OfferPageSteps {
     @Step("Switching to facebook window")
     public OfferPageSteps switchingToFacebookWindow(){
         switchTo().window(1);
+        int conflict = 0;
         return this;
     }
 }

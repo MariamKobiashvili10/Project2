@@ -5,5 +5,6 @@ public class ConstantsForSauceDemo {
             SAUCEDEMO_URL = "https://saucedemo.com",
             STANDARD_USER = "standard_user",
             LOCKED_OUT_USER = "locked_out_user",
-            PROBLEM_USER = "problem_user";
+            PROBLEM_USER = "problem_user",
+            MADE_FOR_CONFLICT = "----";
 }
