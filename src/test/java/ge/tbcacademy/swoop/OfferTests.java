@@ -136,7 +136,7 @@ public class OfferTests {
                 .inputtingPriceRange(dasvenebaPage.maxPriceInput, ConstantsForSwoop.INPUT_MAXIMUM_PRICE)
                 .deleteFilters()
                 .validateDeleteButton();
-        System.out.println("Added for conflict +++ ");
+        System.out.println("Added for conflict +++++++");
     }
     @AfterMethod
     public void tearDown() {
