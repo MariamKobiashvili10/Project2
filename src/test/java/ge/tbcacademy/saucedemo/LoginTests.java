@@ -118,7 +118,7 @@ public class LoginTests {
                         .clickOnLoginButton();
                 userPageSteps.logOut();
                 loginPageSteps.validateLogInInputsAreEmpty();
-                System.out.println("Also made for conflict --");
+                System.out.println("Also made for conflict ++");
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
